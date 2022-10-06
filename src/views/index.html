@@ -27,7 +27,7 @@
     <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -41,58 +41,146 @@
 <header class="header">
     <div class="wrapper">
         <div class="header__items">
-            <div class="header__items__item">
-                <div class="mobile-nav-button">
-                    <div class="mobile-nav-button__line"></div>
-                    <div class="mobile-nav-button__line"></div>
-                    <div class="mobile-nav-button__line"></div>
-                </div>
+            <a href="index.html" class="header__items__logo">
+                <img src="img/logo.png" alt="logo" width="318px" height="100px">
+            </a>
+            <div class="header__items__date">
+                Распродажа до 15.02.16!
+            </div>
+            <div class="header__items__phones">
+                <a href="tel:+7 (343) 252-52-52">+7 (343) 252-52-52</a>
+                <a href="tel:+7 (343) 252-52-52">+7 (343) 252-52-52</a>
             </div>
         </div>
     </div>
-</header>
-
-<!--
+    <!--
     *****NAVIGATION******
 -->
-
-<nav class="mobile-menu">
-    <ul>
-        <li class="active">
-            <a href="#"></a>
-        </li>
-        <li>
-            <a href="#"></a>
-        </li>
-        <li>
-            <a href="#"></a>
-        </li>
-        <li>
-            <a href="#"></a>
-        </li>
-        <li>
-            <a href="#"></a>
-        </li>
-        <li>
-            <a href="#"></a>
-        </li>
-        <li>
-            <a href="#">
-            </a>
-        </li>
-    </ul>
-</nav>
+    <nav class="navigation">
+        <div class="wrapper">
+            <ul class="navigation__items">
+                <li class="navigation__items__item">
+                    <a href="#">Главная</a>
+                </li>
+                <li class="navigation__items__item">
+                    <a href="#">Каталог</a>
+                </li>
+                <li class="navigation__items__item">
+                    <a href="#">Доставка и оплата</a>
+                </li>
+                <li class="navigation__items__item">
+                    <a href="#">Прайс-лист</a>
+                </li>
+                <li class="navigation__items__item">
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
 <!--
     *********MAIN*******
 -->
 <main class="main">
-
+    <div class="slider">
+        <img src="img/bg.png" alt="slider">
+    </div>
+    <section class="content">
+        <div class="wrapper">
+            <div class="content__items">
+                <aside class="content__items__aside">
+                    <h2 class="content__items__aside--title">Новости</h2>
+                    <a href="#" class="content__items__aside__link">
+                        <p class="content__items__aside__link--date">14 сентября 2015 г.</p>
+                        <p>Акция на входные двери Фалько!</p>
+                    </a>
+                    <a href="#" class="content__items__aside__link">
+                        <p class="content__items__aside__link--date">14 сентября 2015 г.</p>
+                        <p>Установка межкомнатных дверй в подарок при покупке 3-х полотен!</p>
+                    </a>
+                    <a href="#" class="content__items__aside__link">
+                        <p class="content__items__aside__link--date">14 сентября 2015 г.</p>
+                        <p>Акция на входные двери Фалько!</p>
+                    </a>
+                    <a href="#" class="content__items__aside__link">
+                        <p class="content__items__aside__link--date">14 сентября 2015 г.</p>
+                        <p>Установка межкомнатных дверй в подарок при покупке 3-х полотен!</p>
+                    </a>
+                    <a href="#" class="content__items__aside__link content__items__aside__link--more">
+                        Архив акций
+                    </a>
+                </aside>
+                <div class="content__items__main">
+                    <h1 class="content__items__main--title">Компания «Шнайдер Консалт»</h1>
+                    <p>Мы эксперты в запуске интернет-магазинов товаров для дома, строительства и ремонта. Совместный
+                        опыт
+                        нашей команды в развитии и продвижении проектов в сфере электронной торговли более 15 лет.</p>
+                    <p>Мы создали надежную технологию, которая позволяет быстро и уверено выводить интернет-магазины на
+                        продажи и самоокупаемость. Если мы беремся за проект, значит уверены в достижении бизнес
+                        результатов
+                        для наших клиентов.</p>
+                    <h3 class="content__items__main--subtitle">Чем мы занимаемся?</h3>
+                    <div class="content__items__main__content">
+                        <div class="content__items__main__content__item">
+                            <h4 class="content__items__main__content__item--title">Только товары для дома, строительства
+                                и ремонта.</h4>
+                            <p>Нельзя одинаково хорошо разбираться во всех отраслях рынка. Поэтому мы работаем на тех
+                                секторах рынка, на котором имеем большой опыт и разбираемся лучше всего. И это
+                                гарантирует
+                                результат нашим клиентам.</p>
+                        </div>
+                        <div class="content__items__main__content__item">
+                            <h4 class="content__items__main__content__item--title">Строим комплексный маркетинг и
+                                продажи.</h4>
+                            <p>Мы не делаем просто сайты. Не занимаемся просто продвижением. Это не принесет результаты.
+                                Только комплексный маркетинг и и система продаж могут принести вам доходы и прибыль.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
+<!--Footer-->
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__items">
+            <div class="footer__items__item">
+                <p>© 2012–2016 ЗАО «Компания»</p>
+                <a href="mailto:info@name.ru">info@name.ru</a>
+            </div>
+            <div class="footer__items__item">
+                <ul class="footer__nav">
+                    <li class="footer__nav__link">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="footer__nav__link">
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li class="footer__nav__link">
+                        <a href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="footer__nav__link">
+                        <a href="#">Прайс-лист</a>
+                    </li>
+                    <li class="footer__nav__link">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__items__item">
+                <a href="#">
+                    Разработка сайта —<br>
+                    компания «Шнайдер Консалт»
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 <script src="js/main.js"></script>
 </body>
 
